@@ -28,6 +28,6 @@ This is an example Streamlit application set up with a conda virtual environment
 
 12- If you want to share your project, push your code to a Git repository and include the `environment.yml` file so others can recreate the same environment using `conda env create -f environment.yml --name <ENV_NAME>`.
 
-13- For deployment, refer to the [Streamlit deployment guide](https://docs.streamlit.io/streamlit-community-cloud) or other hosting platforms like Heroku or AWS.
+13- For deployment, please use `requirements.txt` by executing `pip freeze > requirements.txt` as per [Streamlit deployment guide](https://docs.streamlit.io/streamlit-community-cloud) or other hosting platforms like Heroku or AWS.
 
 Happy coding!
