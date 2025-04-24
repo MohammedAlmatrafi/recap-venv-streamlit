@@ -55,7 +55,7 @@ agent = initialize_agent(
 # Streamlit UI
 st.title("🧠 AI Agent with Weather Tool")
 
-user_input = st.text_input("Ask me anything:")
+user_input = st.text_input("Enter city:")
 
 if user_input:
     with st.spinner("Thinking..."):
